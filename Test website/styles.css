@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    background: linear-gradient(45deg, #FF00A2, #FFEC00, #00FFF6); /* Vibrant gradient background */
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-family: 'Baloo Thambi 2', cursive; /* Fun font-family */
+    text-align: center;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    max-height: 300px; /* Set a max height for the image */
+    object-fit: cover; /* Ensure the image covers the container */
+    border-bottom: 1px solid #ddd;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
